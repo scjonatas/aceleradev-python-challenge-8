@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="23" name="pytest" skips="0" tests="183" time="1.381">
+    <testcase classname="test_submit" file="test_submit.py" line="8" name="test_826" time="0.0007605552673339844"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="12" name="test_1376" time="0.0006496906280517578"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="16" name="test_1565" time="0.0006549358367919922"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="24" name="test_2725" time="0.0006339550018310547"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="28" name="test_2655" time="0.0006344318389892578"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="32" name="test_2500" time="0.0006344318389892578"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="40" name="test_1763" time="0.0008857250213623047"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="44" name="test_168" time="0.0006756782531738281"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="56" name="test_1304" time="0.0006084442138671875"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="60" name="test_2600" time="0.0006241798400878906"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="64" name="test_296" time="0.0006213188171386719"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="68" name="test_1466" time="0.0006182193756103516"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="72" name="test_1076" time="0.0006041526794433594"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="76" name="test_1271" time="0.0006289482116699219"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="96" name="test_2785" time="0.0006139278411865234"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="104" name="test_2895" time="0.0005919933319091797"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="108" name="test_1394" time="0.0006163120269775391"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="112" name="test_2465" time="0.0007452964782714844"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="120" name="test_2730" time="0.0009474754333496094"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="124" name="test_2620" time="0.0008270740509033203"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="128" name="test_2340" time="0.0006458759307861328"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="140" name="test_252" time="0.0006275177001953125"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="144" name="test_1085" time="0.0006289482116699219"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="152" name="test_1781" time="0.0005848407745361328"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="160" name="test_2160" time="0.0006208419799804688"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="168" name="test_2210" time="0.0007693767547607422"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="172" name="test_2590" time="0.0006234645843505859"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="184" name="test_2480" time="0.0006129741668701172"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="188" name="test_2020" time="0.0006117820739746094"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="192" name="test_2830" time="0.0006127357482910156"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="196" name="test_2765" time="0.0006127357482910156"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="200" name="test_2055" time="0.003874540328979492">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd35345b168>('shelve')
+ +    where <built-in method get of dict object at 0x7fd35345b168> = {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1, 'level': 'critical', ...}.get
+ +      where {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1, 'level': 'critical', ...} = <built-in method get of dict object at 0x7fd3536b39d8>('example')
+ +        where <built-in method get of dict object at 0x7fd3536b39d8> = {'discriminator': 'level', 'example': {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1...l', 'debug', 'error', 'warning', 'info'], 'maxLength': 20, 'required': True, 'type': 'string'}, ...}, 'type': 'object'}.get
+ +          where {'discriminator': 'level', 'example': {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1...l', 'debug', 'error', 'warning', 'info'], 'maxLength': 20, 'required': True, 'type': 'string'}, ...}, 'type': 'object'} = <built-in method get of dict object at 0x7fd352eccb88>('Event')
+ +            where <built-in method get of dict object at 0x7fd352eccb88> = {'Agent': {'discriminator': 'environment', 'example': {'address': '10.0.34.15', 'agent_id': 1, 'environment': 'product...rties': {'group_id': 'integer', 'name': {'maxLength': 20, 'required': True, 'type': 'string'}}, 'type': 'object'}, ...}.get
+ +              where {'Agent': {'discriminator': 'environment', 'example': {'address': '10.0.34.15', 'agent_id': 1, 'environment': 'product...rties': {'group_id': 'integer', 'name': {'maxLength': 20, 'required': True, 'type': 'string'}}, 'type': 'object'}, ...} = <built-in method get of dict object at 0x7fd352eccd80>('types')
+ +                where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd35345b168>
+                ('shelve')
+     +    where
+                <built-in method get of dict object at 0x7fd35345b168>
+                    = {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1, 'level': 'critical', ...}.get
+     +      where {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1, 'level': 'critical', ...} =
+                    <built-in method get of dict object at 0x7fd3536b39d8>
+                        ('example')
+     +        where
+                        <built-in method get of dict object at 0x7fd3536b39d8>
+                            = {'discriminator': 'level', 'example': {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1...l', 'debug', 'error', 'warning', 'info'], 'maxLength': 20, 'required': True, 'type': 'string'}, ...}, 'type': 'object'}.get
+     +          where {'discriminator': 'level', 'example': {'agent_id': 1, 'data': datetime.datetime(2020, 7, 1, 19, 54, 34), 'event_id': 1...l', 'debug', 'error', 'warning', 'info'], 'maxLength': 20, 'required': True, 'type': 'string'}, ...}, 'type': 'object'} =
+                            <built-in method get of dict object at 0x7fd352eccb88>
+                                ('Event')
+     +            where
+                                <built-in method get of dict object at 0x7fd352eccb88>
+                                    = {'Agent': {'discriminator': 'environment', 'example': {'address': '10.0.34.15', 'agent_id': 1, 'environment': 'product...rties': {'group_id': 'integer', 'name': {'maxLength': 20, 'required': True, 'type': 'string'}}, 'type': 'object'}, ...}.get
+     +              where {'Agent': {'discriminator': 'environment', 'example': {'address': '10.0.34.15', 'agent_id': 1, 'environment': 'product...rties': {'group_id': 'integer', 'name': {'maxLength': 20, 'required': True, 'type': 'string'}}, 'type': 'object'}, ...} =
+                                    <built-in method get of dict object at 0x7fd352eccd80>
+                                        ('types')
+     +                where
+                                        <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="204" name="test_764" time="0.0006902217864990234"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="208" name="test_1742" time="0.0006451606750488281"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="212" name="test_1643" time="0.0006165504455566406"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="216" name="test_1790" time="0.0006184577941894531"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="224" name="test_2015" time="0.00066375732421875"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="228" name="test_1232" time="0.0007181167602539062"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="232" name="test_2845" time="0.0008199214935302734"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="240" name="test_502" time="0.0006673336029052734"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="244" name="test_1325" time="0.0006344318389892578"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="248" name="test_1670" time="0.0006475448608398438"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="252" name="test_1091" time="0.0006074905395507812"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="256" name="test_2455" time="0.0006155967712402344"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="260" name="test_2975" time="0.0006265640258789062"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="264" name="test_2230" time="0.0006539821624755859"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="272" name="test_2670" time="0.0009262561798095703"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="276" name="test_638" time="0.0009715557098388672"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="280" name="test_1358" time="0.0009753704071044922"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="288" name="test_2365" time="0.0007252693176269531"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="292" name="test_2715" time="0.0026166439056396484">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd35345be10>('username')
+ +    where <built-in method get of dict object at 0x7fd35345be10> = {'properties': {'password': 'string', 'username': 'string'}}.get
+ +      where {'properties': {'password': 'string', 'username': 'string'}} = <built-in method get of dict object at 0x7fd35345b288>('application/json')
+ +        where <built-in method get of dict object at 0x7fd35345b288> = {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}.get
+ +          where {'application/json': {'properties': {'password': 'string', 'username': 'string'}}} = <built-in method get of dict object at 0x7fd3536b34c8>('body')
+ +            where <built-in method get of dict object at 0x7fd3536b34c8> = {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': 'Generate ...es': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}}.get
+ +              where {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': 'Generate ...es': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}} = <built-in method get of dict object at 0x7fd3536b3c18>('post')
+ +                where <built-in method get of dict object at 0x7fd3536b3c18> = {'post': {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': '...s': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}}}.get
+ +                  where {'post': {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': '...s': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}}} = <built-in method get of dict object at 0x7fd352eccd80>('/auth/token')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd35345be10>
+                ('username')
+     +    where
+                <built-in method get of dict object at 0x7fd35345be10>
+                    = {'properties': {'password': 'string', 'username': 'string'}}.get
+     +      where {'properties': {'password': 'string', 'username': 'string'}} =
+                    <built-in method get of dict object at 0x7fd35345b288>
+                        ('application/json')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b288>
+                            = {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}.get
+     +          where {'application/json': {'properties': {'password': 'string', 'username': 'string'}}} =
+                            <built-in method get of dict object at 0x7fd3536b34c8>
+                                ('body')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b34c8>
+                                    = {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': 'Generate ...es': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}}.get
+     +              where {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': 'Generate ...es': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}} =
+                                    <built-in method get of dict object at 0x7fd3536b3c18>
+                                        ('post')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536b3c18>
+                                            = {'post': {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': '...s': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}}}.get
+     +                  where {'post': {'body': {'application/json': {'properties': {'password': 'string', 'username': 'string'}}}, 'description': '...s': {201: {'body': {'application/json': {'type': 'Auth'}}}, 400: {'body': {'application/json': {'type': 'Message'}}}}}} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/auth/token')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="300" name="test_1121" time="0.0010495185852050781"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="304" name="test_2105" time="0.0007932186126708984"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="308" name="test_2065" time="0.0006966590881347656"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="312" name="test_2930" time="0.0006456375122070312"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="316" name="test_2925" time="0.0006196498870849609"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="320" name="test_746" time="0.0006113052368164062"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="324" name="test_1442" time="0.0006151199340820312"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="328" name="test_1826" time="0.0008409023284912109"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="332" name="test_1382" time="0.0006949901580810547"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="344" name="test_2290" time="0.0033311843872070312">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd35345bf78>('example')
+ +    where <built-in method get of dict object at 0x7fd35345bf78> = {'type': 'Agent'}.get
+ +      where {'type': 'Agent'} = <built-in method get of dict object at 0x7fd35345b360>('application/json')
+ +        where <built-in method get of dict object at 0x7fd35345b360> = {'application/json': {'type': 'Agent'}}.get
+ +          where {'application/json': {'type': 'Agent'}} = <built-in method get of dict object at 0x7fd3536b3828>('body')
+ +            where <built-in method get of dict object at 0x7fd3536b3828> = {'body': {'application/json': {'type': 'Agent'}}, 'description': 'Creates an agent', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+ +              where {'body': {'application/json': {'type': 'Agent'}}, 'description': 'Creates an agent', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} = <built-in method get of dict object at 0x7fd3536d3d38>('post')
+ +                where <built-in method get of dict object at 0x7fd3536d3d38> = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+ +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} = <built-in method get of dict object at 0x7fd352eccd80>('/agents')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd35345bf78>
+                ('example')
+     +    where
+                <built-in method get of dict object at 0x7fd35345bf78>
+                    = {'type': 'Agent'}.get
+     +      where {'type': 'Agent'} =
+                    <built-in method get of dict object at 0x7fd35345b360>
+                        ('application/json')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b360>
+                            = {'application/json': {'type': 'Agent'}}.get
+     +          where {'application/json': {'type': 'Agent'}} =
+                            <built-in method get of dict object at 0x7fd3536b3828>
+                                ('body')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b3828>
+                                    = {'body': {'application/json': {'type': 'Agent'}}, 'description': 'Creates an agent', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+     +              where {'body': {'application/json': {'type': 'Agent'}}, 'description': 'Creates an agent', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} =
+                                    <built-in method get of dict object at 0x7fd3536d3d38>
+                                        ('post')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536d3d38>
+                                            = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+     +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/agents')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="348" name="test_1055" time="0.0006330013275146484"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="356" name="test_2030" time="0.0006079673767089844"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="364" name="test_2200" time="0.0010039806365966797"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="368" name="test_916" time="0.0006411075592041016"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="372" name="test_1409" time="0.0006198883056640625"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="380" name="test_1292" time="0.0006182193756103516"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="384" name="test_2530" time="0.0006177425384521484"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="388" name="test_2140" time="0.0006177425384521484"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="392" name="test_664" time="0.0006184577941894531"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="396" name="test_1313" time="0.0006158351898193359"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="400" name="test_2755" time="0.0006165504455566406"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="404" name="test_2305" time="0.0006189346313476562"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="412" name="test_2965" time="0.0006165504455566406"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="416" name="test_2060" time="0.0007250308990478516"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="420" name="test_2625" time="0.0010025501251220703"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="424" name="test_1295" time="0.0008885860443115234"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="432" name="test_2555" time="0.0006833076477050781"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="436" name="test_2610" time="0.0006699562072753906"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="444" name="test_2295" time="0.0006246566772460938"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="448" name="test_2800" time="0.0006234645843505859"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="452" name="test_1460" time="0.0006525516510009766"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="456" name="test_2745" time="0.000629425048828125"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="464" name="test_2990" time="0.0009021759033203125"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="476" name="test_2510" time="0.0006234645843505859"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="480" name="test_934" time="0.0006480216979980469"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="484" name="test_1130" time="0.0006396770477294922"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="492" name="test_2810" time="0.0006237030029296875"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="500" name="test_2695" time="0.0006093978881835938"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="508" name="test_2645" time="0.003763914108276367">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd353451d38>(201)
+ +    where <built-in method get of dict object at 0x7fd353451d38> = {'application/json': {'type': 'Event'}}.get
+ +      where {'application/json': {'type': 'Event'}} = <built-in method get of dict object at 0x7fd35345b510>('body')
+ +        where <built-in method get of dict object at 0x7fd35345b510> = {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+ +          where {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} = <built-in method get of dict object at 0x7fd3536b3cf0>('post')
+ +            where <built-in method get of dict object at 0x7fd3536b3cf0> = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +              where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd3536d3d38>('/{id}/events')
+ +                where <built-in method get of dict object at 0x7fd3536d3d38> = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+ +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} = <built-in method get of dict object at 0x7fd352eccd80>('/agents')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd353451d38>
+                (201)
+     +    where
+                <built-in method get of dict object at 0x7fd353451d38>
+                    = {'application/json': {'type': 'Event'}}.get
+     +      where {'application/json': {'type': 'Event'}} =
+                    <built-in method get of dict object at 0x7fd35345b510>
+                        ('body')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b510>
+                            = {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+     +          where {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} =
+                            <built-in method get of dict object at 0x7fd3536b3cf0>
+                                ('post')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b3cf0>
+                                    = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +              where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                                    <built-in method get of dict object at 0x7fd3536d3d38>
+                                        ('/{id}/events')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536d3d38>
+                                            = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+     +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/agents')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="512" name="test_2185" time="0.00350189208984375">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd353451d38>(401)
+ +    where <built-in method get of dict object at 0x7fd353451d38> = {'application/json': {'type': 'Event'}}.get
+ +      where {'application/json': {'type': 'Event'}} = <built-in method get of dict object at 0x7fd35345b510>('body')
+ +        where <built-in method get of dict object at 0x7fd35345b510> = {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+ +          where {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} = <built-in method get of dict object at 0x7fd3536b3cf0>('post')
+ +            where <built-in method get of dict object at 0x7fd3536b3cf0> = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +              where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd3536d3d38>('/{id}/events')
+ +                where <built-in method get of dict object at 0x7fd3536d3d38> = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+ +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} = <built-in method get of dict object at 0x7fd352eccd80>('/agents')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd353451d38>
+                (401)
+     +    where
+                <built-in method get of dict object at 0x7fd353451d38>
+                    = {'application/json': {'type': 'Event'}}.get
+     +      where {'application/json': {'type': 'Event'}} =
+                    <built-in method get of dict object at 0x7fd35345b510>
+                        ('body')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b510>
+                            = {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+     +          where {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} =
+                            <built-in method get of dict object at 0x7fd3536b3cf0>
+                                ('post')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b3cf0>
+                                    = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +              where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                                    <built-in method get of dict object at 0x7fd3536d3d38>
+                                        ('/{id}/events')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536d3d38>
+                                            = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+     +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/agents')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="516" name="test_2580" time="0.005547046661376953">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd353451d38>(404)
+ +    where <built-in method get of dict object at 0x7fd353451d38> = {'application/json': {'type': 'Event'}}.get
+ +      where {'application/json': {'type': 'Event'}} = <built-in method get of dict object at 0x7fd35345b510>('body')
+ +        where <built-in method get of dict object at 0x7fd35345b510> = {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+ +          where {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} = <built-in method get of dict object at 0x7fd3536b3cf0>('post')
+ +            where <built-in method get of dict object at 0x7fd3536b3cf0> = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +              where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd3536d3d38>('/{id}/events')
+ +                where <built-in method get of dict object at 0x7fd3536d3d38> = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+ +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} = <built-in method get of dict object at 0x7fd352eccd80>('/agents')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd353451d38>
+                (404)
+     +    where
+                <built-in method get of dict object at 0x7fd353451d38>
+                    = {'application/json': {'type': 'Event'}}.get
+     +      where {'application/json': {'type': 'Event'}} =
+                    <built-in method get of dict object at 0x7fd35345b510>
+                        ('body')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b510>
+                            = {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+     +          where {'body': {'application/json': {'type': 'Event'}}, 'description': 'Creates an event', 'responses': {201: {'body': {'app...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} =
+                            <built-in method get of dict object at 0x7fd3536b3cf0>
+                                ('post')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b3cf0>
+                                    = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +              where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                                    <built-in method get of dict object at 0x7fd3536d3d38>
+                                        ('/{id}/events')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536d3d38>
+                                            = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+     +                  where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/agents')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="520" name="test_1148" time="0.0006558895111083984"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="524" name="test_2780" time="0.0006325244903564453"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="528" name="test_2805" time="0.0005958080291748047"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="532" name="test_2415" time="0.0005962848663330078"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="536" name="test_2010" time="0.0006010532379150391"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="540" name="test_2545" time="0.0006182193756103516"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="544" name="test_2700" time="0.0006313323974609375"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="548" name="test_1808" time="0.0032596588134765625">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd3536b3cf0>('put')
+ +    where <built-in method get of dict object at 0x7fd3536b3cf0> = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +      where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd3536d3d38>('/{id}/events')
+ +        where <built-in method get of dict object at 0x7fd3536d3d38> = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+ +          where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} = <built-in method get of dict object at 0x7fd352eccd80>('/agents')
+ +            where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd3536b3cf0>
+                ('put')
+     +    where
+                <built-in method get of dict object at 0x7fd3536b3cf0>
+                    = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +      where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                    <built-in method get of dict object at 0x7fd3536d3d38>
+                        ('/{id}/events')
+     +        where
+                        <built-in method get of dict object at 0x7fd3536d3d38>
+                            = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+     +          where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} =
+                            <built-in method get of dict object at 0x7fd352eccd80>
+                                ('/agents')
+     +            where
+                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="552" name="test_2880" time="0.0007996559143066406">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="556" name="test_2595" time="0.0007951259613037109">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="560" name="test_2575" time="0.0010766983032226562">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="568" name="test_2035" time="0.0011339187622070312">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="572" name="test_2855" time="0.0007650852203369141">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="576" name="test_2450" time="0.0007739067077636719">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="580" name="test_1064" time="0.0033969879150390625">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd3536b3cf0>('delete')
+ +    where <built-in method get of dict object at 0x7fd3536b3cf0> = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +      where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd3536d3d38>('/{id}/events')
+ +        where <built-in method get of dict object at 0x7fd3536d3d38> = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+ +          where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} = <built-in method get of dict object at 0x7fd352eccd80>('/agents')
+ +            where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd3536b3cf0>
+                ('delete')
+     +    where
+                <built-in method get of dict object at 0x7fd3536b3cf0>
+                    = {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +      where {'get': {'description': 'Returns the events linked to a specific agent', 'responses': {200: {'body': {'application/jso...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                    <built-in method get of dict object at 0x7fd3536d3d38>
+                        ('/{id}/events')
+     +        where
+                        <built-in method get of dict object at 0x7fd3536d3d38>
+                            = {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...}.get
+     +          where {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {'application/json': {...}}}, 400...': 'Agent[]'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}, ...} =
+                            <built-in method get of dict object at 0x7fd352eccd80>
+                                ('/agents')
+     +            where
+                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="584" name="test_2410" time="0.0008971691131591797">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="588" name="test_2445" time="0.0008082389831542969">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="592" name="test_2760" time="0.0009579658508300781">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="596" name="test_2550" time="0.0008099079132080078">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="600" name="test_2420" time="0.0007927417755126953">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="604" name="test_2605" time="0.0008180141448974609">
+        <failure message="AttributeError: 'NoneType' object has no attribute 'get'">E   AttributeError: 'NoneType' object has no attribute 'get'</failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="612" name="test_486" time="0.0007181167602539062"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="616" name="test_1172" time="0.000652313232421875"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="624" name="test_1910" time="0.0006570816040039062"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="628" name="test_2440" time="0.0006384849548339844"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="632" name="test_2650" time="0.003484964370727539">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd353451480>('properties')
+ +    where <built-in method get of dict object at 0x7fd353451480> = {'type': 'User'}.get
+ +      where {'type': 'User'} = <built-in method get of dict object at 0x7fd35345b828>('application/json')
+ +        where <built-in method get of dict object at 0x7fd35345b828> = {'application/json': {'type': 'User'}}.get
+ +          where {'application/json': {'type': 'User'}} = <built-in method get of dict object at 0x7fd3536b3e58>('body')
+ +            where <built-in method get of dict object at 0x7fd3536b3e58> = {'body': {'application/json': {'type': 'User'}}, 'description': 'Creates a user', 'responses': {201: {'body': {'applic...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+ +              where {'body': {'application/json': {'type': 'User'}}, 'description': 'Creates a user', 'responses': {201: {'body': {'applic...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} = <built-in method get of dict object at 0x7fd3536b7a20>('post')
+ +                where <built-in method get of dict object at 0x7fd3536b7a20> = {'/{id}': {'delete': {'description': 'Deletes a user', 'responses': {200: {'body': {'application/json': {...}}}, 400: ...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +                  where {'/{id}': {'delete': {'description': 'Deletes a user', 'responses': {200: {'body': {'application/json': {...}}}, 400: ...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd352eccd80>('/users')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd353451480>
+                ('properties')
+     +    where
+                <built-in method get of dict object at 0x7fd353451480>
+                    = {'type': 'User'}.get
+     +      where {'type': 'User'} =
+                    <built-in method get of dict object at 0x7fd35345b828>
+                        ('application/json')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b828>
+                            = {'application/json': {'type': 'User'}}.get
+     +          where {'application/json': {'type': 'User'}} =
+                            <built-in method get of dict object at 0x7fd3536b3e58>
+                                ('body')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b3e58>
+                                    = {'body': {'application/json': {'type': 'User'}}, 'description': 'Creates a user', 'responses': {201: {'body': {'applic...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+     +              where {'body': {'application/json': {'type': 'User'}}, 'description': 'Creates a user', 'responses': {201: {'body': {'applic...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} =
+                                    <built-in method get of dict object at 0x7fd3536b7a20>
+                                        ('post')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536b7a20>
+                                            = {'/{id}': {'delete': {'description': 'Deletes a user', 'responses': {200: {'body': {'application/json': {...}}}, 400: ...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +                  where {'/{id}': {'delete': {'description': 'Deletes a user', 'responses': {200: {'body': {'application/json': {...}}}, 400: ...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/users')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="636" name="test_1610" time="0.00067138671875"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="644" name="test_2025" time="0.0006303787231445312"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="648" name="test_2875" time="0.0006241798400878906"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="652" name="test_2775" time="0.0006320476531982422"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="656" name="test_62" time="0.0006189346313476562"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="660" name="test_1160" time="0.0009126663208007812"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="664" name="test_1013" time="0.0007605552673339844"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="672" name="test_2125" time="0.000978231430053711"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="676" name="test_2740" time="0.0008144378662109375"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="684" name="test_1841" time="0.0006165504455566406"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="688" name="test_2275" time="0.0006277561187744141"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="692" name="test_2520" time="0.000621795654296875"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="696" name="test_2425" time="0.0010030269622802734"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="700" name="test_2505" time="0.0006780624389648438"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="704" name="test_2115" time="0.0006110668182373047"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="708" name="test_2300" time="0.0006029605865478516"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="712" name="test_1229" time="0.0006124973297119141"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="716" name="test_2350" time="0.0006494522094726562"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="720" name="test_2935" time="0.0006349086761474609"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="724" name="test_2205" time="0.0006313323974609375"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="732" name="test_2470" time="0.0006227493286132812"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="736" name="test_2940" time="0.0006153583526611328"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="740" name="test_1535" time="0.0006115436553955078"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="748" name="test_2860" time="0.0007174015045166016"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="752" name="test_2310" time="0.0009236335754394531"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="756" name="test_2335" time="0.0007712841033935547"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="760" name="test_2910" time="0.0006997585296630859"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="764" name="test_2225" time="0.0007028579711914062"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="768" name="test_442" time="0.0005984306335449219"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="772" name="test_1103" time="0.0007772445678710938"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="776" name="test_1676" time="0.0005922317504882812"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="780" name="test_1523" time="0.0007801055908203125"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="784" name="test_2375" time="0.0006995201110839844"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="788" name="test_2865" time="0.002995014190673828">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd353451048>('properties')
+ +    where <built-in method get of dict object at 0x7fd353451048> = {'type': 'Group'}.get
+ +      where {'type': 'Group'} = <built-in method get of dict object at 0x7fd35345b678>('application/json')
+ +        where <built-in method get of dict object at 0x7fd35345b678> = {'application/json': {'type': 'Group'}}.get
+ +          where {'application/json': {'type': 'Group'}} = <built-in method get of dict object at 0x7fd3536b3d80>('body')
+ +            where <built-in method get of dict object at 0x7fd3536b3d80> = {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+ +              where {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} = <built-in method get of dict object at 0x7fd3536b3b88>('post')
+ +                where <built-in method get of dict object at 0x7fd3536b3b88> = {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +                  where {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd352eccd80>('/groups')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd353451048>
+                ('properties')
+     +    where
+                <built-in method get of dict object at 0x7fd353451048>
+                    = {'type': 'Group'}.get
+     +      where {'type': 'Group'} =
+                    <built-in method get of dict object at 0x7fd35345b678>
+                        ('application/json')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b678>
+                            = {'application/json': {'type': 'Group'}}.get
+     +          where {'application/json': {'type': 'Group'}} =
+                            <built-in method get of dict object at 0x7fd3536b3d80>
+                                ('body')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b3d80>
+                                    = {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+     +              where {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} =
+                                    <built-in method get of dict object at 0x7fd3536b3b88>
+                                        ('post')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536b3b88>
+                                            = {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +                  where {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/groups')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="792" name="test_2380" time="0.003067493438720703">
+        <failure message="AssertionError: assert None
+ +  where None = <built-in method get of dict object at 0x7fd353451048>('example')
+ +    where <built-in method get of dict object at 0x7fd353451048> = {'type': 'Group'}.get
+ +      where {'type': 'Group'} = <built-in method get of dict object at 0x7fd35345b678>('application/json')
+ +        where <built-in method get of dict object at 0x7fd35345b678> = {'application/json': {'type': 'Group'}}.get
+ +          where {'application/json': {'type': 'Group'}} = <built-in method get of dict object at 0x7fd3536b3d80>('body')
+ +            where <built-in method get of dict object at 0x7fd3536b3d80> = {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+ +              where {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} = <built-in method get of dict object at 0x7fd3536b3b88>('post')
+ +                where <built-in method get of dict object at 0x7fd3536b3b88> = {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+ +                  where {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} = <built-in method get of dict object at 0x7fd352eccd80>('/groups')
+ +                    where <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get">
+            E   AssertionError: assert None
+     +  where None =
+            <built-in method get of dict object at 0x7fd353451048>
+                ('example')
+     +    where
+                <built-in method get of dict object at 0x7fd353451048>
+                    = {'type': 'Group'}.get
+     +      where {'type': 'Group'} =
+                    <built-in method get of dict object at 0x7fd35345b678>
+                        ('application/json')
+     +        where
+                        <built-in method get of dict object at 0x7fd35345b678>
+                            = {'application/json': {'type': 'Group'}}.get
+     +          where {'application/json': {'type': 'Group'}} =
+                            <built-in method get of dict object at 0x7fd3536b3d80>
+                                ('body')
+     +            where
+                                <built-in method get of dict object at 0x7fd3536b3d80>
+                                    = {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}.get
+     +              where {'body': {'application/json': {'type': 'Group'}}, 'description': 'Creates a group', 'responses': {201: {'body': {'appl...'body': {'application/json': {'example': {'message': 'Error: Unauthorized'}, 'type': 'Message'}}}}, 'securedBy': 'JWT'} =
+                                    <built-in method get of dict object at 0x7fd3536b3b88>
+                                        ('post')
+     +                where
+                                        <built-in method get of dict object at 0x7fd3536b3b88>
+                                            = {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}}.get
+     +                  where {'/{id}': {'delete': {'description': 'Deletes a group', 'responses': {200: {'body': {'application/json': {...}}}, 400:...'type': 'Message'}}}, 401: {'body': {'application/json': {'example': {...}, 'type': 'Message'}}}}, 'securedBy': 'JWT'}} =
+                                            <built-in method get of dict object at 0x7fd352eccd80>
+                                                ('/groups')
+     +                    where
+                                                <built-in method get of dict object at 0x7fd352eccd80> = {'/agents': {'/{id}': {'delete': {'description': 'Deletes an agent', 'responses': {200: {'body': {...}}, 400: {'body':...}}, 400: {'body': {'application/json': {...}}}, 401: {'body': {'application/json': {...}}}}, 'securedBy': 'JWT'}}, ...}.get
+        </failure>
+    </testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="796" name="test_1538" time="0.0008132457733154297"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="800" name="test_2705" time="0.0006463527679443359"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="804" name="test_2145" time="0.0006072521209716797"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="808" name="test_2040" time="0.0006365776062011719"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="812" name="test_458" time="0.0006289482116699219"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="816" name="test_1046" time="0.0006344318389892578"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="820" name="test_1457" time="0.0009055137634277344"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="824" name="test_1757" time="0.0006520748138427734"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="828" name="test_2900" time="0.0006375312805175781"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="832" name="test_2710" time="0.0007178783416748047"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="836" name="test_2070" time="0.0006716251373291016"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="840" name="test_2970" time="0.0006277561187744141"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="844" name="test_80" time="0.00061798095703125"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="848" name="test_1835" time="0.000621795654296875"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="852" name="test_2680" time="0.00061798095703125"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="856" name="test_2565" time="0.0006182193756103516"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="860" name="test_2080" time="0.0006103515625"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="864" name="test_2120" time="0.0007007122039794922"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="868" name="test_2250" time="0.0008931159973144531"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="872" name="test_2270" time="0.0007889270782470703"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="876" name="test_1904" time="0.0006775856018066406"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="880" name="test_2130" time="0.0006406307220458984"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="884" name="test_2630" time="0.0006380081176757812"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="888" name="test_2525" time="0.0006210803985595703"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="892" name="test_2405" time="0.0006175041198730469"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="896" name="test_2255" time="0.0007963180541992188"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="900" name="test_1577" time="0.0006937980651855469"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="904" name="test_2090" time="0.0006413459777832031"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="908" name="test_2960" time="0.0006680488586425781"></testcase>
+    <testcase classname="test_submit" file="test_submit.py" line="912" name="test_2260" time="0.0006101131439208984"></testcase>
+</testsuite>
